@@ -1,0 +1,12 @@
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\bin\Debug\net6.0\WebApiBackgroundServices.Domain.deps.json
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\bin\Debug\net6.0\WebApiBackgroundServices.Domain.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\bin\Debug\net6.0\WebApiBackgroundServices.Domain.pdb
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\WebApiBackgroundServices.Domain.csproj.AssemblyReference.cache
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\WebApiBackgroundServices.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\WebApiBackgroundServices.Domain.AssemblyInfoInputs.cache
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\WebApiBackgroundServices.Domain.AssemblyInfo.cs
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\WebApiBackgroundServices.Domain.csproj.CoreCompileInputs.cache
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\WebApiBackgroundServices.Domain.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\refint\WebApiBackgroundServices.Domain.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\WebApiBackgroundServices.Domain.pdb
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices.Domain\obj\Debug\net6.0\ref\WebApiBackgroundServices.Domain.dll
