@@ -31,3 +31,4 @@ C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Repository.pdb
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Domain.dll
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Domain.pdb
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\Newtonsoft.Json.dll

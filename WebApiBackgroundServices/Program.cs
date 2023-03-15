@@ -1,9 +1,12 @@
+using WebApiBackgroundServices.Domain;
 using WebApiBackgroundServices.Repository;
 using WebApiBackgroundServices.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddHttpClient<OrderConsumerService>();
+
 builder.Services.AddSingleton<ICommandRepository, CommandRepository>();
 
 builder.Services.AddEndpointsApiExplorer();

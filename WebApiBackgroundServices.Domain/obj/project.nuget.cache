@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XoriJk8S6VWk6EDSXKcMYg/lekEKNfITYzrgpjwToqOSEKZjjuMGrr9vhH5mxY+lBsWA6XI5FocwLS4CBKxbOQ==",
+  "dgSpecHash": "4dNKAMtutuDyPstVUAxGUBPTCUJcdp/rEKuTJCtuiJm8SY3HyCWatbNkpWsb5ZQQZOTSJ++dUDDaHVWlyjkTyQ==",
   "success": true,
   "projectFilePath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DEV-EST-01\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

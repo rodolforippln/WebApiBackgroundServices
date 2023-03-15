@@ -1,27 +1,25 @@
 ﻿using WebApiBackgroundServices.Domain;
 
-namespace WebApiBackgroundServices.Repository
+namespace WebApiBackgroundServices.Repository;
+
+public class CommandRepository : ICommandRepository
 {
-    public class CommandRepository : ICommandRepository
-    {
-        private Message _message;
+    private Message _message;
 
-        public CommandRepository(){
-            _message = new Message
-            {
-                Content = ".......////......"
-            };
-        }
-
-        public string GetMessage()
+    public CommandRepository(){
+        _message = new Message
         {
-            return _message.Content;
-        }                    
-
-        public void SetMessage(Message message)
-        {
-            _message = message;
-        }
+            Content = "..."
+        };
     }
 
+    public string GetMessage()
+    {
+        return _message.Content;
+    }                    
+
+    public void SetMessage(Message message)
+    {
+        _message = message;
+    }
 }
