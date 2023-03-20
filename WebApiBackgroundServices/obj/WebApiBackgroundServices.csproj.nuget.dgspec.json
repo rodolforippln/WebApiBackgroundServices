@@ -10,23 +10,16 @@
         "projectUniqueName": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
         "projectName": "WebApiBackgroundServices.Domain",
         "projectPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
-        "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\picon\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DEV-EST-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\picon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -76,23 +69,16 @@
         "projectUniqueName": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj",
         "projectName": "WebApiBackgroundServices.Repository",
         "projectPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj",
-        "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\picon\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DEV-EST-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\picon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -140,23 +126,16 @@
         "projectUniqueName": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
         "projectName": "WebApiBackgroundServices.Services",
         "projectPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
-        "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\picon\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DEV-EST-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\picon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -204,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -214,23 +193,16 @@
         "projectUniqueName": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices\\WebApiBackgroundServices.csproj",
         "projectName": "WebApiBackgroundServices",
         "projectPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices\\WebApiBackgroundServices.csproj",
-        "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\picon\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DEV-EST-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\picon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -287,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

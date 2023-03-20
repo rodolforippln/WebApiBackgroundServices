@@ -6,9 +6,16 @@ C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.dll
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.pdb
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Domain.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Repository.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Services.dll
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Domain.pdb
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Repository.pdb
+C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Services.pdb
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\obj\Debug\net6.0\WebApiBackgroundServices.csproj.AssemblyReference.cache
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\obj\Debug\net6.0\WebApiBackgroundServices.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\obj\Debug\net6.0\WebApiBackgroundServices.AssemblyInfoInputs.cache
@@ -25,10 +32,3 @@ C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\obj\Debug\net6.0
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\obj\Debug\net6.0\WebApiBackgroundServices.pdb
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\obj\Debug\net6.0\WebApiBackgroundServices.genruntimeconfig.cache
 C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\obj\Debug\net6.0\ref\WebApiBackgroundServices.dll
-C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Services.dll
-C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Services.pdb
-C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Repository.dll
-C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Repository.pdb
-C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Domain.dll
-C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\WebApiBackgroundServices.Domain.pdb
-C:\dev\dotnet\WebApiBackgroundServices\WebApiBackgroundServices\bin\Debug\net6.0\Newtonsoft.Json.dll

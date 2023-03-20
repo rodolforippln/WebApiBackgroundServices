@@ -1,0 +1,103 @@
+{
+  "orderId": "1313880500157-01",
+  "marketplaceServicesEndpoint": "http://oms.vtexinternal.com.br/api/oms?an=vicenza",
+  "origin": "Marketplace",
+  "status": "ready-for-handling",
+  "statusDescription": "Pronto para o manuseio",
+  "creationDate": "2023-02-27T19:39:06.0363332+00:00",
+  "lastChange": "2023-02-27T20:09:42.5026834+00:00",
+  "items": [
+      {
+          "uniqueId": "6A9CB829D1824C79BE99C5D7FF35E79C",
+          "id": "1012",
+          "productId": "134",
+          "ean": "7909376997644",
+          "lockId": "00-1313880500157-01",
+          "name": "Sandália Vitoria Vicenza  Laranja 37",
+          "price": 68990,
+          "imageUrl": "https://vicenza.vteximg.com.br/arquivos/ids/156450-55-55/-vinil-transparente-1459002-31.jpg?v=638101930046370000",
+          "detailUrl": "/-vinil-transparente-1459002-3/p",
+          "additionalInfo": {
+              "brandName": "Vicenza",
+              "brandId": "2000000",
+              "dimension": {
+                  "cubicweight": 1.3750,
+                  "height": 10.0000,
+                  "length": 22.0000,
+                  "weight": 0.5100,
+                  "width": 30.0000
+              }
+          }
+      }
+  ],
+  "clientProfileData": {
+      "id": "clientProfileData",
+      "email": "e2f2e3086e8e4db282f89f5a8a9deac9@ct.vtex.com.br",
+      "firstName": "Maycon",
+      "lastName": "Almeida",
+      "documentType": "cpf",
+      "document": "09538294998",
+      "phone": "+5546991270777"
+  },
+  "shippingData": {
+      "id": "shippingData",
+      "address": {
+          "addressType": "residential",
+          "receiverName": "Maycon Almeida",
+          "addressId": "90bb96a6b5814a11ac967b1f6c1a1963",
+          "postalCode": "85503-446",
+          "city": "Pato Branco",
+          "state": "PR",
+          "country": "BRA",
+          "street": "Rua Fioravante Colla",
+          "number": "305",
+          "neighborhood": "Fraron",
+          "complement": null,
+          "reference": null,
+          "geoCoordinates": [
+              -52.694473266601563,
+              -26.195991516113281
+          ]
+      },
+      "logisticsInfo": [
+          {
+              "itemIndex": 0,
+              "selectedSla": "PAC",
+              "lockTTL": "10d",
+              "price": 2199,
+              "listPrice": 2199,
+              "sellingPrice": 2199,
+              "deliveryWindow": null,
+              "deliveryCompany": "PAC",
+              "shippingEstimate": "11bd",
+              "shippingEstimateDate": "2023-03-14T19:39:32.8306031+00:00"
+          }
+      ],
+      "selectedAddresses": [
+          {
+              "addressId": "90bb96a6b5814a11ac967b1f6c1a1963",
+              "addressType": "residential",
+              "receiverName": "Maycon Almeida",
+              "street": "Rua Fioravante Colla",
+              "number": "305",
+              "complement": null,
+              "neighborhood": "Fraron",
+              "postalCode": "85503-446",
+              "city": "Pato Branco",
+              "state": "PR",
+              "country": "BRA",
+              "reference": null,
+              "geoCoordinates": [
+                  -52.694473266601563,
+                  -26.195991516113281
+              ]
+          }
+      ]
+  }, 
+  "isCompleted": true,
+  "isCheckedIn": false,
+  "marketplace": {
+      "baseURL": "http://oms.vtexinternal.com.br/api/oms?an=vicenza",
+      "name": "vicenza"
+  }
+}
