@@ -3,6 +3,19 @@ using WebApiBackgroundServices.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+using IHost host = Host.CreateDefaultBuilder(args).Build();
+
+//builder.Configuration
+
+IConfiguration config = host.Services.GetRequiredService<IConfiguration>();
+
+//string con = config.GetValue<string>("ConnectionStrings:conn1");
+//OR
+string connectionString = config["ConnectionStrings:conn1"];
+
+Console.WriteLine($"Hello, World! {connectionString}");
+
+
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<OrderConsumerService>();
 builder.Services.AddHttpClient<OrderConsumerById>();

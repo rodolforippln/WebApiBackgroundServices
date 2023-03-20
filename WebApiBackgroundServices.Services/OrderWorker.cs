@@ -31,5 +31,4 @@ public class OrderWorker : IHostedService
   {
     var m = _consumerService.GetListOdersVtex();
   }
-
 }

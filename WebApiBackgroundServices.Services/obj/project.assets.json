@@ -335,32 +335,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\picon\\.nuget\\packages\\": {}
+    "C:\\Users\\DEV-EST-01\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
+      "projectUniqueName": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
       "projectName": "WebApiBackgroundServices.Services",
-      "projectPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
-      "packagesPath": "C:\\Users\\picon\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\obj\\",
+      "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
+      "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\picon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DEV-EST-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {
-              "projectPath": "C:\\dev\\dotnet\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj"
+            "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {
+              "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj"
             }
           }
         }
@@ -400,7 +408,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
