@@ -15,7 +15,6 @@ string connectionString = config["ConnectionStrings:conn1"];
 
 Console.WriteLine($"Hello, World! {connectionString}");
 
-
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<OrderConsumerService>();
 builder.Services.AddHttpClient<OrderConsumerById>();
