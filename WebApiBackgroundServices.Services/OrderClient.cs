@@ -8,12 +8,10 @@ namespace WebApiBackgroundServices.Services;
 public class OrderClient
 {
     private readonly HttpClient _httpClient;
-    private OrderConsumerById _orderConsumerById;
     private readonly IConfiguration _configuration;
-    public OrderClient(HttpClient httpClient, OrderConsumerById orderConsumerById, IConfiguration configuration)
+    public OrderClient(HttpClient httpClient, IConfiguration configuration)
     {
-        _httpClient = httpClient;
-        _orderConsumerById = orderConsumerById;
+        _httpClient = httpClient;        
         _configuration = configuration;
     }
 
@@ -52,25 +50,25 @@ public class OrderClient
 
         var m = JsonConvert.DeserializeObject<ResponseOrder>(result);
 
-        Console.WriteLine();
-        Console.WriteLine("Fazendo fetching Order By Id na VTex:");
-        Console.WriteLine("============================================");
-        Console.WriteLine();
-        Console.WriteLine($"UniqueId: {m.orderId}");
+        //Console.WriteLine();
+        //Console.WriteLine("Fazendo fetching Order By Id na VTex:");
+        //Console.WriteLine("============================================");
+        //Console.WriteLine();
+        //Console.WriteLine($"UniqueId: {m.orderId}");
 
-        if (m.items is not null)
-        {
-            foreach (var item in m.items)
-            {
-                if (item is not null) Console.WriteLine($"UniqueId: {item.uniqueId}");
+        //if (m.items is not null)
+        //{
+        //    foreach (var item in m.items)
+        //    {
+        //        if (item is not null) Console.WriteLine($"UniqueId: {item.uniqueId}");
 
-                if (item is not null) Console.WriteLine();
-            }
-        }
-        else
-        {
-            Console.WriteLine("Sem order no momento...");
-        }
+        //        if (item is not null) Console.WriteLine();
+        //    }
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Sem order no momento...");
+        //}
 
         return m;
     }

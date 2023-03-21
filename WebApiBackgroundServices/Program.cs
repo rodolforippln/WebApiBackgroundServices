@@ -16,14 +16,12 @@ string connectionString = config["ConnectionStrings:conn1"];
 Console.WriteLine($"Hello, World! {connectionString}");
 
 builder.Services.AddControllers();
-builder.Services.AddHttpClient<OrderConsumerService>();
-builder.Services.AddHttpClient<OrderConsumerById>();
-builder.Services.AddHttpClient<OrderClient>();
-
-builder.Services.AddSingleton<ICommandRepository, CommandRepository>();
-
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(); 
+
+builder.Services.AddHttpClient<OrderClient>();
+builder.Services.AddTransient<OrderService>();
+builder.Services.AddSingleton<ICommandRepository, CommandRepository>();
 builder.Services.AddHostedService<OrderWorker>();
 
 var app = builder.Build();

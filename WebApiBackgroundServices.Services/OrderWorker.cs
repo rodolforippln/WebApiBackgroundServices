@@ -7,14 +7,13 @@ public class OrderWorker : IHostedService
 {
     private Timer? _timer = null;
     private ICommandRepository _commandRepository;
-    private OrderConsumerService _consumerService;
-    private OrderClient _orderClient;
+    private OrderService _orderService;
 
-    public OrderWorker(ICommandRepository commandRepository, OrderConsumerService consumerService, OrderClient orderClient)
+
+    public OrderWorker(ICommandRepository commandRepository, OrderService orderService)
     {
-        _commandRepository = commandRepository;
-        _consumerService = consumerService;
-        _orderClient = orderClient;
+        _commandRepository = commandRepository;       
+        _orderService = orderService;
     }
     public Task StartAsync(CancellationToken cancellationToken)
     {
@@ -31,7 +30,7 @@ public class OrderWorker : IHostedService
 
     private void DoWork(object? state)
     {
-        var m = _consumerService.GetListOdersVtex();
+        var m =_orderService.PorcessOrderVtex();
         //var n = _orderClient.GetById(m.List[0].OrderId);
         
     }
