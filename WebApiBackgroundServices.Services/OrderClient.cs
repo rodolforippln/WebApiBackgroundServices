@@ -5,12 +5,12 @@ using WebApiBackgroundServices.Services.modelsResponseVTEX;
 
 namespace WebApiBackgroundServices.Services;
 
-public class OrderConsumerService
+public class OrderClient
 {
     private readonly HttpClient _httpClient;
     private OrderConsumerById _orderConsumerById;
     private readonly IConfiguration _configuration;
-    public OrderConsumerService(HttpClient httpClient, OrderConsumerById orderConsumerById, IConfiguration configuration)
+    public OrderClient(HttpClient httpClient, OrderConsumerById orderConsumerById, IConfiguration configuration)
     {
         _httpClient = httpClient;
         _orderConsumerById = orderConsumerById;
@@ -33,11 +33,44 @@ public class OrderConsumerService
         var result = await response.Content.ReadAsStringAsync();
 
         var m = JsonConvert.DeserializeObject<Order>(result);
+        
+
+        return m;
+    }
+
+    public async Task<ResponseOrder> GetById(string id)
+    {
+        var url = $"https://Vicenza.vtexcommercestable.com.br/api/oms/pvt/orders/{id}";
+        var request = new HttpRequestMessage(HttpMethod.Get, url);
+        request.Headers.Add("X-VTEX-API-AppKey", "vtexappkey-vicenza-YTSYLU");
+        request.Headers.Add("X-VTEX-API-AppToken", "HKBPBFDYYBEREGTMYBMWFYNXBFSUMQTXZWPMJAFPCALRYAXWIZNEJNKDZVXRCZSJHDYPHEOCLOLBPUUXJJGNFVOVCWHFZFZBZLZULHVUJCGYZGBZEZJXHTUQGMDQLSVI");
+        request.Headers.Add("Accept", "application/json");
+       
+        var response = await _httpClient.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+        var result = await response.Content.ReadAsStringAsync();
+
+        var m = JsonConvert.DeserializeObject<ResponseOrder>(result);
 
         Console.WriteLine();
+        Console.WriteLine("Fazendo fetching Order By Id na VTex:");
+        Console.WriteLine("============================================");
+        Console.WriteLine();
+        Console.WriteLine($"UniqueId: {m.orderId}");
 
-        await _orderConsumerById.GetById(m.List[0].OrderId);
-        
+        if (m.items is not null)
+        {
+            foreach (var item in m.items)
+            {
+                if (item is not null) Console.WriteLine($"UniqueId: {item.uniqueId}");
+
+                if (item is not null) Console.WriteLine();
+            }
+        }
+        else
+        {
+            Console.WriteLine("Sem order no momento...");
+        }
 
         return m;
     }
