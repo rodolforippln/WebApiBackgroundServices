@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {}
+    "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {}
   },
   "projects": {
-    "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {
+    "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
+        "projectUniqueName": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
         "projectName": "WebApiBackgroundServices.Domain",
-        "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
+        "projectPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
         "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\obj\\",
+        "outputPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {
+    "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj",
+        "projectUniqueName": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj",
         "projectName": "WebApiBackgroundServices.Repository",
-        "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj",
+        "projectPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj",
         "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\obj\\",
+        "outputPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {
-                "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj"
+              "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {
+                "projectPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj"
               }
             }
           }
