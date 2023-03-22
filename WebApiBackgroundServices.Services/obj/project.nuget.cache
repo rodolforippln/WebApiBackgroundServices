@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjQPANGIeqiOCOfrYCXVQJsXHZutgB0vAqVW24rce8LbdqkXcTWMEGfaK+nCQ0J1qw5cgl4HJKaq3PCNzOgzNQ==",
+  "dgSpecHash": "/Ud+vynU45ERYqHK3KUVYanFRFzRos9TL1+kMrhbs8leDQ1RlbdQqcxyvbvh+Fj8LJKOhGDq7he0t3z6bg5AfA==",
   "success": true,
-  "projectFilePath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
+  "projectFilePath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DEV-EST-01\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\DEV-EST-01\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

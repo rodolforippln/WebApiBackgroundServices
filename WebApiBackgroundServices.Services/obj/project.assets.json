@@ -341,11 +341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
+      "projectUniqueName": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
       "projectName": "WebApiBackgroundServices.Services",
-      "projectPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
+      "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\WebApiBackgroundServices.Services.csproj",
       "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\obj\\",
+      "outputPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -367,8 +367,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {
-              "projectPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj"
+            "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj": {
+              "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Repository\\WebApiBackgroundServices.Repository.csproj"
             }
           }
         }

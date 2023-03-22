@@ -13,6 +13,8 @@ IConfiguration config = host.Services.GetRequiredService<IConfiguration>();
 //OR
 string connectionString = config["ConnectionStrings:conn1"];
 
+// var stringConexao = "User Id=SYSTEM;Password=1234;Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST =localhost)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=XE)))";
+
 Console.WriteLine($"Hello, World! {connectionString}");
 
 builder.Services.AddControllers();

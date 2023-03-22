@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {}
+    "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {}
   },
   "projects": {
-    "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {
+    "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
+        "projectUniqueName": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
         "projectName": "WebApiBackgroundServices.Domain",
-        "projectPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
+        "projectPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\WebApiBackgroundServices.Domain.csproj",
         "packagesPath": "C:\\Users\\DEV-EST-01\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\obj\\",
+        "outputPath": "C:\\dev\\dotnet\\Worker\\WebApiBackgroundServices\\WebApiBackgroundServices.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

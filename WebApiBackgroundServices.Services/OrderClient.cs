@@ -22,8 +22,8 @@ public class OrderClient
         Console.WriteLine("/////////////////////////////////////////");
         var url = "https://Vicenza.vtexcommercestable.com.br/api/oms/pvt/orders/?f_creationDate=creationDate:[2023-02-27T02:00:00.000Z TO 2023-03-01T01:59:59.999Z]";
         var request = new HttpRequestMessage(HttpMethod.Get, url);
-        request.Headers.Add("X-VTEX-API-AppKey", "vtexappkey-vicenza-YTSYLU");
-        request.Headers.Add("X-VTEX-API-AppToken", "HKBPBFDYYBEREGTMYBMWFYNXBFSUMQTXZWPMJAFPCALRYAXWIZNEJNKDZVXRCZSJHDYPHEOCLOLBPUUXJJGNFVOVCWHFZFZBZLZULHVUJCGYZGBZEZJXHTUQGMDQLSVI");
+        request.Headers.Add("X-VTEX-API-AppKey", "vtexappkey-vicenza-LWUNVW");
+        request.Headers.Add("X-VTEX-API-AppToken", "EAHPSQYGDUVEQYJJKPNIQMYFHIMYRHMMAGBVLHJXRVHDJHQNLEUIAMVCQUWTYTJJIEEONVDJJOUDUJFYGQBXUDDDXBJIEEEKSIWZNMIECSOPJECDDNGIWCLWMELKVSWW");
         request.Headers.Add("Accept", "application/json");
 
         var response = await _httpClient.SendAsync(request);
@@ -40,8 +40,8 @@ public class OrderClient
     {
         var url = $"https://Vicenza.vtexcommercestable.com.br/api/oms/pvt/orders/{id}";
         var request = new HttpRequestMessage(HttpMethod.Get, url);
-        request.Headers.Add("X-VTEX-API-AppKey", "vtexappkey-vicenza-YTSYLU");
-        request.Headers.Add("X-VTEX-API-AppToken", "HKBPBFDYYBEREGTMYBMWFYNXBFSUMQTXZWPMJAFPCALRYAXWIZNEJNKDZVXRCZSJHDYPHEOCLOLBPUUXJJGNFVOVCWHFZFZBZLZULHVUJCGYZGBZEZJXHTUQGMDQLSVI");
+        request.Headers.Add("X-VTEX-API-AppKey", "vtexappkey-vicenza-LWUNVW");
+        request.Headers.Add("X-VTEX-API-AppToken", "EAHPSQYGDUVEQYJJKPNIQMYFHIMYRHMMAGBVLHJXRVHDJHQNLEUIAMVCQUWTYTJJIEEONVDJJOUDUJFYGQBXUDDDXBJIEEEKSIWZNMIECSOPJECDDNGIWCLWMELKVSWW");
         request.Headers.Add("Accept", "application/json");
        
         var response = await _httpClient.SendAsync(request);
